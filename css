@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.header{
+/*homepage */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(https://wallpaperaccess.com/full/1251284.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+ul li.active a{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.title h1{
+   
+    color: white; 
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    animation: heading 10s;
+}
+
+.title2 h2{
+    color: white;    
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    animation: heading 10s;
+}
+@keyframes heading
+      {
+      0%{
+          color: black;
+          margin-bottom: -40px ;
+      }
+      20%{
+        color: blue;
+        margin-bottom: -40px ;
+    }
+    40%{
+        color: red;
+        margin-bottom: -40px ;
+    }
+    80%{
+        color: yellow;
+        margin-bottom: -40px ;
+    }
+      100%{
+          color: white;
+          margin-bottom: 20px;
+      }
+      }
+
+
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.btn{
+border: 1px solid #fff;
+padding: 10px 30px;
+color: #fff;
+text-decoration: none;
+transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+/*--Mental Health--*/
+
+.image{   
+    background-color: palevioletred;
+}
+
+.image img{
+    
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+    animation: change 10s;
+}
+
+@keyframes change{
+0%{height: 300px;}
+50%{height: 500px;}
+100%{height: 300px;}
+}
+
+
+.intro{
+    background-color: aqua;
+  
+}
+
+.stress p{
+
+    text-align:center;
+    text-decoration:solid;
+    font-size: large;
+}
+
+.i2{
+    background-color: aqua;
+   
+}
+
+.i2 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+.selflove{
+    background-color: aqua;
+      /* Text */
+    text-align:center;
+    color:maroon;
+    font-size: larger;
+    
+}
+
+.selflove h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+    animation: background 10s;
+    animation-delay: 15s;
+}
+@keyframes background{
+    0%{ background-color: rgb(238, 255, 0);}
+    
+    100%{ background-color: white;}
+
+}
+.i3{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin: 100px;
+    display: inline-block;
+}
+.i3 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+.i4 {
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin: 100px;
+    display: inline-block;
+}
+.i4 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+.i5{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin: 100px;
+    display: inline-block;
+}
+.i5 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+.reason{
+    background-color: aqua;
+    text-align:center;
+    color:rebeccapurple;
+    font-size: larger;
+  
+}
+.reason h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+    animation: background 10s;
+    animation-delay: 25s;
+}
+
+.i6{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin-right: 500px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.i6 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+
+
+.i8{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 200px;
+    display: inline-block;
+}
+
+.i8 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+
+.mh{
+
+    background-color: lavender;
+    text-align:center;
+    color:chocolate;
+    font-size: larger;
+}
+
+
+.mh img{
+    
+        height: 300px;
+        position:static;
+        border:5px dotted black;
+        margin-bottom: 20px;
+    }
+
+.mh h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;
+    border: 1px solid black;
+    animation: background 10s infinite;
+    
+    }
+.mh h3{
+    color:red;
+    border: 1px solid black;
+    margin: 30px;
+    height: 30px;
+    background-color:bisque;
+}
+
+#disorder{
+    
+    background-color: lavender;
+    text-align:center;
+    color:indianred;
+    font-size: larger;
+    font-weight: 300;
+}
+
+.Anxiety{
+
+    background-color: lightpink ;
+    text-align:center;
+    color:mediumblue;
+    font-size: larger;
+}
+
+.Anxiety h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;
+    border: 1px solid black;
+    animation: background 10s infinite;
+
+}
+
+.a1{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin-right: 500px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.a1 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+
+.a2{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 300px;
+    display: inline-block;
+}
+
+.a2 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+.a3{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin-right: 500px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.a3 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+.do img{
+    
+        height: 300px;
+        position:static;
+        border:5px dotted black;
+        margin-bottom: 20px;
+    
+}
+.st{
+    
+    background-color: lightpink ;
+    text-align:center;
+    color:mediumblue;
+    font-size: larger;
+   
+}
+
+.st h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;
+    border: 1px solid black;
+    animation: background 5s infinite;
+   
+}
+.st2{
+    
+    background-color: lightpink ;
+    text-align:left;
+    color:mediumblue;
+    font-size: larger;
+   
+}
+
+.stress h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;
+    border: 1px solid black;
+    animation: background 10s infinite;
+    
+}
+
+.stress img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+.a4{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin-right: 500px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.a4 img{
+    
+        height: 300px;
+        position:static;
+        border:5px dotted black;
+        margin-bottom: 20px;
+    
+}
+
+
+.a5{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 300px;
+    display: inline-block;
+}
+.a5 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+.a6{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin-right: 500px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.a6 img{
+    height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+/* HEALTHY HABITS */
+
+
+.t{
+    background-color: darksalmon;
+}
+
+.t img{
+     height: 300px;
+    position:static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+    animation: change 10s;
+}
+
+
+.img{
+    
+    height: 200px;
+    position: static;
+    border:5px dotted black;
+    margin-bottom: 20px;
+}
+
+
+
+.point1{
+    background-color:aqua;
+    color:darkred;
+    font-style:oblique;
+    margin-left: 10px;
+   
+
+}
+.point1 h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;  
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: ghostwhite;
+    animation: headings 5s infinite;
+}
+
+@keyframes headings{
+    0%{background-color:lime;}
+    50%{border: 0px;}
+    100%{background-color: white;}
+    100%{border: 5px solid black;}
+}
+
+.point1 img{
+    height: 300px;
+   position:static;
+   border:5px dotted black;
+   margin-bottom: 20px;
+   
+}
+
+.point2{
+    background-color: lavender;
+    color: darkred;
+    font-style:oblique;
+    margin-left: 10px;
+}
+.point2 h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;  
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: ghostwhite;
+    animation: headings 5s infinite;
+}
+.point2 img{
+    height: 300px;
+   position:static;
+   border:5px dotted black;
+   margin-bottom: 20px;
+   
+}
+
+.point3{
+    background-color: mediumaquamarine;
+    color: black;
+    font-style:oblique;
+    margin-left: 10px;
+}
+.point3 h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;  
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: ghostwhite;
+    animation: headings 5s infinite;
+}
+.point3 img{
+    height: 300px;
+   position:static;
+   border:5px dotted black;
+   margin-bottom: 20px;
+   
+}
+
+.point4{
+    background-color:thistle;
+    color: brown;
+    font-style:oblique;
+    margin-left: 10px;
+}
+.point4 h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;  
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: ghostwhite;
+    animation: headings 5s infinite;
+}
+.point4 img{
+    height: 300px;
+   position:static;
+   border:5px dotted black;
+   margin-bottom: 20px;
+   
+}
+
+.video{
+    background-color: plum;
+    color: brown;
+    font-style:oblique;
+    margin-left: 10px;   
+    margin-bottom: 10px;
+}
+.video h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;  
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: ghostwhite;
+    animation: headings 5s infinite;
+}
+
+
+/* Suggestion Box */
+.para{
+background-color:dodgerblue;
+
+}
+
+img{
+    margin: 10px;
+    margin-bottom: 20px;
+    border: 5px dotted black;
+}
+
+.main{
+    color:midnightblue;
+    text-align: center;
+    
+}
+.sblink a{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: pink;
+    animation: sblink 5s infinite;
+    margin-bottom: 20px;
+}
+@keyframes sblink{
+    0%{background-color: white;}
+    50%{background-color: powderblue;}
+    100%{background-color: pink;}
+}
+
+
+/*quiz time*/
+
+.image{
+
+    background-color:mediumaquamarine;
+}
+
+.text{
+
+background-color:lavenderblush;   
+text-align: center; 
+}
+.text h2{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:underline;
+    color:fuchsia; 
+    animation: walkingletters 5s infinite;
+}
+.tot{
+
+    background-color:lightblue;   
+    text-align: center; 
+    }
+    .tot h2{
+        margin-top: 10px;
+        text-align: center;
+        text-decoration:underline;
+        color:blueviolet; 
+        animation: walkingletters 5s infinite;
+    }
+@keyframes walkingletters{
+0%{text-align:left;}
+50%{text-align:center;}
+75%{text-align:right;}
+100%{text-align:center;}
+}
